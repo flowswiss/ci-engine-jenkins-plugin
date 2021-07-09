@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    This plugin adds a new cloud-option for executing builds on the Mac CI-service of Flow Swiss AG
+</div>

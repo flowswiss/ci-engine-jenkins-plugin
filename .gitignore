@@ -1,0 +1,14 @@
+# maven files
+target/
+bin/
+work/
+
+# intellij files
+*.iml
+.idea
+
+# eclipse / vscode files
+.settings
+.classpath
+.project
+.vscode

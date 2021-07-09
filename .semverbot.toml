@@ -1,0 +1,17 @@
+[git]
+
+[git.config]
+email = "adrian@flow.swiss"
+name = "Adrian Schmid"
+
+[git.tags]
+prefix = "v"
+
+[semver]
+mode = "auto"
+
+[semver.detection]
+patch = ["fix/", "[fix]", "bugfix/", "hotfix/"]
+minor = ["feature/", "[feature]"]
+major = ["release/", "[release]"]
+
